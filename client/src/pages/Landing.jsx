@@ -2,16 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import Wrapper from "../assets/wrappers/LandingPage";
 import main from "../assets/images/main.svg";
-import logo from "../assets/images/logo.svg";
-import jobnestlogo from "../assets/images/jobnest-logo.svg";
+
 import { Link } from "react-router-dom";
+import { Logo } from "../components";
 
 const Landing = () => {
   return (
     <Wrapper>
       <nav>
-        {/* <img src={logo} alt="jobNest" className="logo" /> */}
-        <img src={jobnestlogo} alt="jobNest" className="logo" />
+        <Logo />
       </nav>
       <div className="container page">
         <div className="info">
