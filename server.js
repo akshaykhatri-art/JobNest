@@ -5,12 +5,14 @@ import express from "express";
 const app = express();
 import morgan from "morgan";
 import mongoose from "mongoose";
+import { body, validationResult } from "express-validator";
 
 // routers
 import jobRouter from "./routes/jobRouter.js";
 
 // middlewares
 import errorHandlerMiddleware from "./middleware/errorHandlerMiddleware.js";
+import { validateTest } from "./middleware/validationMiddleware.js";
 
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
@@ -22,25 +24,10 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-app.post("/", (req, res) => {
-  console.log(req);
-  res.json({ message: "data received", data: req.body });
+app.post("/api/v1/test", validateTest, (req, res) => {
+  const { name } = req.body;
+  res.json({ message: `hello ${name}` });
 });
-
-// // GET ALL JOBS
-// app.get("/api/v1/jobs", );
-
-// // CREATE JOB
-// app.post("/api/v1/jobs", );
-
-// // GET SINGLE JOB
-// app.get("/api/v1/jobs/:id", );
-
-// // EDIT JOB
-// app.patch("/api/v1/jobs/:id", );
-
-// // DELETE JOB
-// app.delete("/api/v1/jobs/:id", );
 
 app.use("/api/v1/jobs", jobRouter);
 
