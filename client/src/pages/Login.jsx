@@ -29,8 +29,8 @@ export const action =
       toast.success("Login successful");
       return redirect("/dashboard");
     } catch (error) {
-      // toast.error(error?.response?.data?.msg);
-      errors.msg = error?.response?.data?.msg;
+      toast.error(error?.response?.data?.msg);
+      // errors.msg = error?.response?.data?.msg;
       return errors;
     }
   };
