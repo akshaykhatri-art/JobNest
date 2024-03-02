@@ -37,3 +37,7 @@ Live :- https://akshay-jobnestv2.onrender.com/
 ![Screenshot 2024-03-02 163835](https://github.com/akshaykhatri-art/JobNest/assets/118674613/40ca7c7e-d525-428c-b868-dc3dbafda359)
 ![Screenshot 2024-03-02 163858](https://github.com/akshaykhatri-art/JobNest/assets/118674613/d9cfd21d-a553-4b92-8c04-a2a579e49b49)
 ![Screenshot 2024-03-02 164353](https://github.com/akshaykhatri-art/JobNest/assets/118674613/a1a410fd-3864-4d01-895a-5584d3721d07)
+
+## Authors
+
+- [@akshaykhatri-art](https://www.github.com/akshaykhatri-art)
