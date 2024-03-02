@@ -27,3 +27,13 @@ Live :- https://akshay-jobnestv2.onrender.com/
 - Toast messages responding to user's interaction with the app
 - Dark Mode
 
+## Screenshots
+
+![Screenshot 2024-03-02 163623](https://github.com/akshaykhatri-art/JobNest/assets/118674613/9e683f15-e908-498c-a2f1-1584ca6bc257)
+![Screenshot 2024-03-02 163643](https://github.com/akshaykhatri-art/JobNest/assets/118674613/a035f7a3-654c-4c5c-a4fb-78a54204245b)
+![Screenshot 2024-03-02 163655](https://github.com/akshaykhatri-art/JobNest/assets/118674613/0d610141-5e18-42ab-b79e-b5e6a79bd7ed)
+![Screenshot 2024-03-02 163730](https://github.com/akshaykhatri-art/JobNest/assets/118674613/aa37c46c-0447-4f82-b541-e984ac2cd7cc)
+![Screenshot 2024-03-02 163813](https://github.com/akshaykhatri-art/JobNest/assets/118674613/91053e88-128a-4591-965b-cf383665e3da)
+![Screenshot 2024-03-02 163835](https://github.com/akshaykhatri-art/JobNest/assets/118674613/40ca7c7e-d525-428c-b868-dc3dbafda359)
+![Screenshot 2024-03-02 163858](https://github.com/akshaykhatri-art/JobNest/assets/118674613/d9cfd21d-a553-4b92-8c04-a2a579e49b49)
+![Screenshot 2024-03-02 164353](https://github.com/akshaykhatri-art/JobNest/assets/118674613/a1a410fd-3864-4d01-895a-5584d3721d07)
